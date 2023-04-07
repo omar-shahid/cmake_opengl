@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "Run Project",
+      "command": "cmake --build ./build && ./build/${workspaceRootFolderName}",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Builds and run project",
+      "problemMatcher": []
+    }
+  ]
+}
